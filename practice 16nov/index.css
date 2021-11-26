@@ -1,0 +1,58 @@
+/* type selctor */
+
+li {
+    color: red;
+}
+
+
+/* id seclctor 
+id must be unique*/
+
+#special {
+    color: green;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.blue-text:hover {
+    color: rgb(161, 161, 161);
+}
+
+
+/* universal selector */
+
+* {
+    color: purple;
+}
+
+
+/* pseudo class */
+
+li:hover {
+    color: yellowgreen;
+}
+
+li:first-child {
+    color: black;
+}
+
+li:last-child {
+    color: darkblue;
+}
+
+
+/* pesudo element */
+
+.blue-text.special-text {
+    text-transform: uppercase;
+}
+
+
+/* or . commA,  */
+
+.blue-text,
+.special-text {
+    text-transform: uppercase;
+}

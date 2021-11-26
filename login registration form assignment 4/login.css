@@ -1,0 +1,29 @@
+                        form {
+                        border-radius: 20px;
+                        padding: 30px;
+                        display: inline-block;
+                        background-color: aqua;
+                        margin-left: 30%;
+                        margin-top: 30px;
+                    }
+                    
+                    h2 {
+                        margin-left: 80px;
+                    }
+                    
+                    input {
+                        display: block;
+                        margin: 20px;
+                    }
+                    
+                    button {
+                        margin-left: 90px;
+                    }
+                    
+                    a {
+                        display: block;
+                        margin: 20px;
+                        margin-left: 50px;
+                        color: rgb(10, 10, 10);
+                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        font-weight: 300;

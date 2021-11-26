@@ -1,0 +1,23 @@
+.navbar {
+    position: sticky;
+    width: 100%;
+    background-color: antiquewhite;
+    height: 40px;
+    top: 0px;
+    left: 0px;
+}
+
+.nav-bar-top {
+    position: sticky;
+    width: 100%;
+    background-color: antiquewhite;
+    height: 40px;
+    top: 0px;
+    left: 0px;
+}
+
+body {
+    margin: 0px;
+}
+
+p:first-of-type {}

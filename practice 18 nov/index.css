@@ -1,0 +1,11 @@
+.flex-container {
+    display: flex;
+    justify-content: left;
+}
+
+.flex-element {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(185, 185, 51);
+    border: 2px solid black;
+}
