@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>objects</h2>
+    <script>
+        var arr = ["element 1", "another", false, 10.5, -400];
+        var obj = {
+            'key_0': "element 1",
+            0: "somenthi",
+        };
+        var prof = {
+            'name': "geekter class",
+            'email': "himanshumehar@gmail.com",
+            'salary': "seceret"
+        }
+        var r = prof.email;
+        console.log(r)
+            // update property prof 
+        prof.name = "himanshu";
+        console.log(prof);
+        //  add to new property
+        prof.subject = "java script";
+        console.log(prof);
+
+        //get  list of all keys ofobject
+        var keyz = object.keys(prof);
+        console.log(keyz)
+
+        var len = keyz.length;
+        console.log(len);
+
+        //get all values of  anobject
+        var val = Object.values(prof);
+        console.log(val);
+
+        // /show all properties of an obj 
+        for (var i = 0; i < val.length; i++) {
+            console.log(val[i])
+        }
+    </script>
+</body>
+
+</html>
